@@ -1,0 +1,20 @@
+{
+    "full_name": "Mohamed Elsayed",
+    "name": "SAYED",
+    "current_role": "Full Stack Engineer",
+    "location": "Alexandria, Egypt",
+    "email": "mohamedelsayed20258@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/mohamedelsayed2002/",
+    "specialties": [
+        "AI",
+        "Frontend",
+        "Backend"
+    ],
+    "years_experience": 2,
+    "education": [
+        {
+            "degree": "Bachelor of Science University Alexandria",
+            "year": 2025
+        }
+    ]
+}

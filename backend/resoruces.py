@@ -16,25 +16,39 @@ def _read_text_with_fallback(*filenames: str, default: str = "") -> str:
 
 # Read LinkedIn PDF
 try:
-    reader = PdfReader(str(DATA_DIR / "linkedin.pdf"))
+    linkedin_path = DATA_DIR / "linkedin.pdf"
+    reader = PdfReader(linkedin_path)
+
     linkedin = ""
     for page in reader.pages:
         text = page.extract_text()
         if text:
-            linkedin += text
+            linkedin += text.strip() + "\n"
+
 except FileNotFoundError:
     linkedin = "LinkedIn profile not available"
 
+except Exception as e:
+    linkedin = f"Error reading LinkedIn PDF: {e}"
+
+
 # Read My CV
 try:
-    reader = PdfReader(str(DATA_DIR) / "fullstack.pdf")
+    cv_path = DATA_DIR / "fullstack.pdf"
+    reader = PdfReader(cv_path)
+
     fullstackPdf = ""
     for page in reader.pages:
         text = page.extract_text()
-        if text: 
-            fullstackPdf += text 
+        if text:
+            fullstackPdf += text.strip() + "\n"
+
 except FileNotFoundError:
-    fullstackPdf = 'Full Stack PDF not available'
+    fullstackPdf = "Full Stack PDF not available"
+
+except Exception as e:
+    fullstackPdf = f"Error reading CV PDF: {e}"
+
 
 # Read other data files
 summary = _read_text_with_fallback(
@@ -42,7 +56,16 @@ summary = _read_text_with_fallback(
     "me.txt",
     default="Summary not available",
 )
-style = _read_text_with_fallback("style.txt", default="Style notes not available")
 
-with open(DATA_DIR / "facts.json", "r", encoding="utf-8") as f:
-    facts = json.load(f)
+style = _read_text_with_fallback(
+    "style.txt",
+    default="Style notes not available"
+)
+
+
+# Read facts JSON
+try:
+    with open(DATA_DIR / "facts.json", "r", encoding="utf-8") as f:
+        facts = json.load(f)
+except FileNotFoundError:
+    facts = {}

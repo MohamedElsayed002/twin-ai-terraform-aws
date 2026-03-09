@@ -1,2 +1,2 @@
-from resoruces import facts, linkedin, style, summary
+from resoruces import facts, linkedin, style, summary, fullstackPdf
 

@@ -1,20 +1,137 @@
 {
-    "full_name": "Mohamed Elsayed",
-    "name": "SAYED",
-    "current_role": "Full Stack Engineer",
+  "full_name": "Mohamed Elsayed",
+  "first_name": "Mohamed",
+  "last_name": "Elsayed",
+  "display_name": "Mohamed Elsayed",
+  "current_role": "Full-Stack Engineer",
+  "profile": "Full-Stack Engineer specializing in the TypeScript ecosystem (Next.js, React, NestJS). Experienced in building scalable web platforms, AI-integrated applications, and payment-enabled systems on modern cloud infrastructure. Strong focus on performance, internationalization (EN/AR), and production readiness (CI/CD, monitoring).",
+  "contact": {
+    "email": "mohammadelsayed002@gmail.com",
+    "phone": "+20 1093588197",
     "location": "Alexandria, Egypt",
-    "email": "mohamedelsayed20258@gmail.com",
+    "willing_to_relocate": true,
+    "preferred_relocations": [
+      "Cairo, Egypt",
+      "Remote / International"
+    ]
+  },
+  "socials": {
     "linkedin": "https://www.linkedin.com/in/mohamedelsayed2002/",
+    "github": "https://github.com/MohamedElsayed002",
+    "tiktok": "https://www.tiktok.com/@moelsayed002",
+    "instagram": "https://www.instagram.com/mosayed002"
+  },
+  "summary": {
     "specialties": [
-        "AI",
-        "Frontend",
-        "Backend"
+      "AI",
+      "Frontend",
+      "Backend",
+      "Full-Stack",
+      "System Design"
     ],
     "years_experience": 2,
-    "education": [
+    "availability": "Open to relocation and remote roles"
+  },
+  "education": [
+    {
+      "degree": "B.Sc. in Statistics & Computer Science",
+      "institution": "University of Alexandria",
+      "graduation_year": 2025
+    }
+  ],
+  "experience": [
+    {
+      "title": "Front-End Developer",
+      "company": "Elevate",
+      "period": "Nov 2024 - Jul 2025",
+      "highlights": [
+        "Contributed 500+ commits to a large-scale Next.js application",
+        "Built modular features using Next.js App Router, NextAuth and next-intl",
+        "Collaborated in Agile workflow using GitHub, Jira and Slack"
+      ]
+    },
+    {
+      "title": "Freelance Full-Stack Developer",
+      "company": "Freelance / Mostaql",
+      "period": "Aug 2025 - Feb 2026",
+      "projects": [
         {
-            "degree": "Bachelor of Science University Alexandria",
-            "year": 2025
+          "name": "Car Wash Management Platform",
+          "stack": [
+            "MongoDB",
+            "Express.js",
+            "React",
+            "Node.js"
+          ],
+          "features": [
+            "Arabic RTL interface with 40+ components",
+            "HyperPay integration (Apple Pay, Visa/Mastercard)",
+            "QR-code package redemption system",
+            "Admin dashboard with analytics and transaction monitoring"
+          ]
+        },
+        {
+          "name": "Shark MKT Marketplace",
+          "stack": [
+            "Next.js",
+            "NestJS",
+            "MongoDB"
+          ],
+          "features": [
+            "Bilingual marketplace (Arabic / English)",
+            "Role-based access control",
+            "Advanced service listing filters",
+            "Dashboard for partners and admins"
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "title": "Internship Trainee",
+      "company": "CIB Egypt",
+      "period": "Aug 2024 - Sep 2024",
+      "focus": [
+        "Data Literacy",
+        "Cybersecurity Awareness"
+      ]
+    },
+    {
+      "title": "Backend Developer (Training Program)",
+      "company": "Route",
+      "period": "Jan 2024 - May 2024"
+    },
+    {
+      "title": "Customer Service Representative",
+      "company": "Proper Business Solutions",
+      "period": "Jun 2022 - Jan 2023"
+    }
+  ],
+  "projects": [
+    {
+      "name": "CareerCast AI",
+      "type": "AI SaaS Platform",
+      "demo": "https://careercast-ai-mu.vercel.app/",
+      "github": "https://github.com/MohamedElsayed002/careercast-ai"
+    },
+    {
+      "name": "Flower Obsession",
+      "type": "Full Stack E-commerce",
+      "demo": "https://florist-nextjs-neon.vercel.app/en"
+    },
+    {
+      "name": "Twin AI",
+      "type": "AI Personal Twin Chatbot",
+      "purpose": "AI chatbot that knows Mohamed's background and answers questions about him"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arabic",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "C1"
+    }
+  ]
 }

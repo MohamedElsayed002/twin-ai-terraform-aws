@@ -25,6 +25,17 @@ try:
 except FileNotFoundError:
     linkedin = "LinkedIn profile not available"
 
+# Read My CV
+try:
+    reader = PdfReader(str(DATA_DIR) / "fullstack.pdf")
+    fullstackPdf = ""
+    for page in reader.pages:
+        text = page.extract_text()
+        if text: 
+            fullstackPdf += text 
+except FileNotFoundError:
+    fullstackPdf = 'Full Stack PDF not available'
+
 # Read other data files
 summary = _read_text_with_fallback(
     "summary.txt",

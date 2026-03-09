@@ -12,6 +12,7 @@ lambda-package/
 
 # Memory storage (contains conversation history)
 memory/
+week2/
 
 # Environment files
 .env

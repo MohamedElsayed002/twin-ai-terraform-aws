@@ -1,6 +1,27 @@
-I am a Mohamed Elsayed with 2 of experience in Full Stack Engineer. 
-My expertise includes [key areas of expertise].
+Mohamed Elsayed
 
-Currently, I'm focused on [current interests/projects].
+I am Mohamed Elsayed, a Full Stack Engineer with 2 years of experience
+building modern web applications and scalable SaaS platforms.
 
-My background includes [relevant experience highlights].
+My expertise includes: - Full Stack JavaScript/TypeScript development -
+Next.js and React frontend development - Node.js backend APIs - AI
+integrations (OpenAI and AI-powered features) - Cloud infrastructure on
+AWS - Docker containerization - Terraform infrastructure as code -
+Database design with Prisma and SQL - Building SaaS products with
+authentication, payments, and subscriptions
+
+Currently, I’m focused on building AI-powered applications, scalable
+SaaS platforms, and cloud-native systems using modern DevOps practices.
+
+My background includes building production-ready web platforms,
+deploying applications using AWS services (such as ECR, App Runner,
+CloudFront, and S3), and designing full-stack architectures that can
+scale from MVP to real-world products.
+
+I enjoy solving complex engineering problems, optimizing performance,
+and turning ideas into fully functional digital products.
+
+Location: Egypt Open to relocation and international opportunities.
+
+Social: Instagram: https://www.instagram.com/twin_dev TikTok:
+https://www.tiktok.com/@twin.dev
